@@ -1,0 +1,187 @@
+[
+  {
+    "_id": {
+      "$oid": "6283cd0906042250572c931b"
+    },
+    "nombre": "Unicell Scherrer",
+    "calle": "Agustin de Iturbide",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "El Carmen",
+    "codigoPostal": "86930",
+    "imagen": "https://th.bing.com/th/id/OIP.C-AzwMSZs2bzrodb7RH07QHaE7?pid=ImgDet&rs=1",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6283d09aff5e96e740a27825"
+    },
+    "nombre": "La Michoacana",
+    "descripcion": "En El Local Podras Encontrar como Aguas Frescas,Helados,Frappes,Paletas,Bolis,Postres,etc.",
+    "calle": "Eusebio Castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "San Joaquin",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6283d8cf6e01285ce6e51b7a"
+    },
+    "nombre": "Novedades yovani",
+    "descripcion": "En El local se puede encontrar articulos como Ropa de dama,playeras de caballero,niños,ropa Interior",
+    "calle": "Eusebio Castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "San Joaquin",
+    "codigoPostal": "86930",
+    "id_categoria": "627d12ece399647e760359f4",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62851afda3237eb0bd7a819f"
+    },
+    "nombre": "Unicell Scherrer",
+    "descripcion": "En El Local Podras Encontrar Articulos Como Fundas de telefono,cargadores,UDIFONOS,Cables de todo tipo,etc.",
+    "calle": "Agustin de Iturbide",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "El Carmen",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62851c16a3237eb0bd7a81a1"
+    },
+    "nombre": "Hotel Balamku",
+    "descripcion": "En esta sucursal podras obtener habitaciones por algunos dias y lo que desees como para 4 personas, indivual y de todos tamaños y gustos.",
+    "calle": "Eusebio Castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "San Joaquin",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62851d40a3237eb0bd7a81a3"
+    },
+    "nombre": "Fenix",
+    "descripcion": "en el podras encontrar tecnologia en general como cables de red, y adaptadores Rj45 todo para poder hacer tu linea de cabla de red de todo tipo de categoria como 5 y 6.",
+    "calle": "Benito Juarez",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Las Flores",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62851ddaa3237eb0bd7a81a5"
+    },
+    "nombre": "Impretec",
+    "descripcion": "Podras encontrar todo tipo de gadget para tus necesidades, asi como mouses, teclados, impresiones en general como tabloides y hasta cortadora laser.",
+    "calle": "Eusebio Castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Las Flores",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62851e74a3237eb0bd7a81a7"
+    },
+    "nombre": "Cel Master PC",
+    "descripcion": "articulos para tu telefono desde fundas hasta micas de telefono, audifonos, bocinas, etc.",
+    "calle": "Eusebio Castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Las Flores",
+    "codigoPostal": "86930",
+    "__v": 0,
+    "id_categoria": "627d12e6e399647e760359f2"
+  },
+  {
+    "_id": {
+      "$oid": "62851f9da3237eb0bd7a81a9"
+    },
+    "nombre": "Milano",
+    "descripcion": "Ropa para dama, caballero,niño y ropa interior.",
+    "calle": "Eusebio Castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Centro",
+    "codigoPostal": "86930",
+    "id_categoria": "627d12ece399647e760359f4",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62852023a3237eb0bd7a81ab"
+    },
+    "nombre": "Lenceria El Carnival",
+    "descripcion": "Ropa para dama y caballero como lencerias en general.",
+    "calle": "Francisco I. Madero",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Centro",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6285209aa3237eb0bd7a81ad"
+    },
+    "nombre": "Modas Elegantes",
+    "descripcion": "Ropa para dama y caballero en general.",
+    "calle": "Eusebio castillo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "San Joaquin",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6285214da3237eb0bd7a81af"
+    },
+    "nombre": "Sirloin",
+    "descripcion": "Tacos,tortas,etc",
+    "calle": "Mariano Escobedo",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Las Flores",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "628521c1a3237eb0bd7a81b1"
+    },
+    "nombre": "Portoncito",
+    "descripcion": "Restauran de mariscos como camaron, cocteles, pescados fritos, etc.",
+    "calle": "Gregorio Mendez",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Centro",
+    "codigoPostal": "86930",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "628521faa3237eb0bd7a81b3"
+    },
+    "nombre": "Sagitario",
+    "descripcion": "Restauran de mariscos como camaron, cocteles, pescados fritos,etc..",
+    "calle": "Gregorio Mendez",
+    "estado": "Tabasco",
+    "municipio": "Balancan",
+    "colonia": "Centro",
+    "codigoPostal": "86930",
+    "__v": 0
+  }
+]

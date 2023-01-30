@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "627d12e6e399647e760359f2"
+    },
+    "nombre_categoria": "Tecnologia",
+    "__v": 0,
+    "imagen": "https://i.ytimg.com/vi/ZohRqHDsfVs/maxresdefault.jpg",
+    "subtitulo": "Todo para tu celular"
+  },
+  {
+    "_id": {
+      "$oid": "627d12ece399647e760359f4"
+    },
+    "nombre_categoria": "ropa",
+    "__v": 0,
+    "imagen": "https://assets.afcdn.com/story/20160802/947294_w980h638c1cx511cy250.jpg",
+    "subtitulo": "Para vestirte a la moda"
+  },
+  {
+    "_id": {
+      "$oid": "627d12efe399647e760359f6"
+    },
+    "nombre_categoria": "comida",
+    "__v": 0,
+    "imagen": "https://th.bing.com/th/id/R.fcf1648facd2ff51367f82fb0accd006?rik=HYBCgj3k%2bXBUlQ&pid=ImgRaw&r=0",
+    "subtitulo": "Que no te falte el hambre"
+  },
+  {
+    "_id": {
+      "$oid": "627d12f8e399647e760359f8"
+    },
+    "nombre_categoria": "barberias",
+    "__v": 0,
+    "imagen": "https://i.etsystatic.com/22616986/r/il/2354cb/2377755787/il_794xN.2377755787_p38f.jpg",
+    "subtitulo": "Cortes Profesionales"
+  }
+]
