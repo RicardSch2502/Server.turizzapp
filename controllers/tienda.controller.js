@@ -36,6 +36,7 @@ export default {
       res.status(200).json(registro);
       res.send("hola");
     } catch (err) {
+      console.log(err)
       res.status(500).send({
         mensage: "Ocurrio un error en la base de datos",
       });

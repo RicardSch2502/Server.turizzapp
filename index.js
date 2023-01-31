@@ -9,7 +9,7 @@ import router from "./routes";
 
 //conexion a la base de datos mongodb
 mongoose.Promise = global.Promise;
-const dbUrl = "mongodb://localhost:27017/turizzapp";
+const dbUrl = "mongodb://127.0.0.1:27017/turizzapp";
 mongoose
   .connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((mongoose) => console.log("Conectado a la BD en el puerto 27017"))
