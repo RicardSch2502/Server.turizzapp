@@ -14,6 +14,7 @@ mongoose
   .connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((mongoose) => console.log("Conectado a la BD en el puerto 27017"))
   .catch((err) => console.log(err));
+  mongoose.set('strictQuery', true);
 
 const app = express();
 app.set("port", process.env.PORT || 4000);
