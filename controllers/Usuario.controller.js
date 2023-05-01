@@ -33,6 +33,31 @@ export default {
       console.log(err);
     }
   },
+  buscarUsuario: async (req, res, next) => {
+    try {
+        console.log("hola");
+      const {
+        usuario,
+        password,
+      } = req.body;
+      const user = await models.usuariomodel.find({usuario: usuario, contrasena: password}).exec()
+
+      if(
+        user.length < 1
+      ){
+        throw {msg:"el usuario no existe"}
+      }
+
+      
+      res.status(200).json(user);
+    } catch (err) {
+      console.log(err)
+      res.status(403).send({
+        mensage: err.msg,
+      });
+      console.log(err);
+    }
+  },
 
   /*//CONSULTAR PERSONAL EN LA BASE DE DATOS//
   consultar: async (req, res, next) => {

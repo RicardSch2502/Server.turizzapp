@@ -1,8 +1,10 @@
 import models from "../models";
+import path from "path";
 
 export default {
   //GUARDAR DATOS EN LA BASE DE DATOS//
   guardar: async (req, res, next) => {
+    console.log(req.body.datos);
     try {
       const {
         nombre,
@@ -14,9 +16,8 @@ export default {
         codigoPostal,
         id_categoria,
         categoria,
-        imagen,
         color,
-      } = req.body;
+      } = JSON.parse(req.body.datos);
 
       const tienda = models.nTienda({
         nombre,
@@ -28,15 +29,14 @@ export default {
         codigoPostal,
         id_categoria,
         categoria,
-        imagen,
         color,
       });
 
       const registro = await tienda.save();
+      GuardarImagen(req, res, registro["_id"]);
       res.status(200).json(registro);
-      res.send("hola");
     } catch (err) {
-      console.log(err)
+      console.log(err);
       res.status(500).send({
         mensage: "Ocurrio un error en la base de datos",
       });
@@ -133,4 +133,19 @@ export default {
       });
     }
   },
+};
+const GuardarImagen = async (req, res, id) => {
+  const { img } = req.files;
+
+  const newname = `${id}.${img.mimetype.replace("image/", "")}`;
+
+  const direccionimg = path.join(__dirname, "../public/imagenes/", newname);
+  const actualizar = await models.nTienda.findByIdAndUpdate(id, {
+    imagen: `estatico/imagenes/${newname}`,
+  });
+  img.mv(direccionimg, (err) => {
+    if (err) {
+      res.status(400).send({ msg: "error al guardar imagen" });
+    }
+  });
 };
