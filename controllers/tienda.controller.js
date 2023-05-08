@@ -81,9 +81,8 @@ export default {
         codigoPostal,
         id_categoria,
         categoria,
-        imagen,
         color,
-      } = req.body;
+      } = JSON.parse(req.body.datos);
 
       const tienda = {
         nombre,
@@ -95,7 +94,6 @@ export default {
         codigoPostal,
         id_categoria,
         categoria,
-        imagen,
         color,
       };
 
@@ -103,6 +101,9 @@ export default {
         req.params.id,
         tienda
       );
+
+      GuardarImagen(req, res, req.params.id);
+
       res.status(200).json(actualizar);
     } catch (error) {
       res.status(500).send({
